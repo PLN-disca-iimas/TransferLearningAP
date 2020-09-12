@@ -1,0 +1,29 @@
+Fecha de creación del archivo: 29-07-2020 21:56:49
+Preprocesamiento usado: es_clean
+Preprocesamiento de la info: ELMO
+Número de usuarios analizados: 20
+ ---------------------------
+ *** LogisticRegression(max_iter=1000, solver='sag')
+ ---------------------- 
+ ---------Validación RepeatedStratifiedKFold------------------
+  Scores:[0.5]
+  Mean:0.5
+  Standard deviation:0.0
+  F1:  0.6666666666666666
+  precision:  0.0
+  recall:  0.0
+  exactitud (accuracy):  0.5
+  elapsed time:0.10990715026855469
+ 
+ ---------------------------
+ *** LinearSVC()
+ ---------------------- 
+ ---------Validación RepeatedStratifiedKFold------------------
+  Scores:[0.5]
+  Mean:0.5
+  Standard deviation:0.0
+  F1:  0.6666666666666666
+  precision:  0.0
+  recall:  0.0
+  exactitud (accuracy):  0.5
+  elapsed time:0.11009788513183594

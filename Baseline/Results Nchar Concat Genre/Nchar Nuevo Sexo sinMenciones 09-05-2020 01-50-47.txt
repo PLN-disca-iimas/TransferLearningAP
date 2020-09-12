@@ -1,0 +1,39 @@
+Fecha de creación del archivo: 09-05-2020 01-50-47
+Carpeta usada: /content/drive/My Drive/Bases SS/sinMenciones
+Preprocesamiento de la info: Nchar
+Número de archivos analizados: 4200
+ 
+ ---------------------------
+ *** LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='sag', tol=0.0001, verbose=0,
+                   warm_start=False)
+ ---------------------- 
+ ---------Validación RepeatedStratifiedKFold------------------
+  Scores:[0.7309523809523809, 0.7130952380952381, 0.7345238095238096, 0.6964285714285714, 0.6976190476190476, 0.725, 0.7238095238095238, 0.7166666666666667, 0.7071428571428572, 0.6988095238095238, 0.7035714285714286, 0.7083333333333334, 0.7488095238095238, 0.6928571428571428, 0.7119047619047619, 0.7238095238095238, 0.7095238095238096, 0.7178571428571429, 0.7095238095238096, 0.7178571428571429, 0.7142857142857143, 0.6916666666666667, 0.705952380952381, 0.7297619047619047, 0.7285714285714285]
+  Mean:0.7143333333333333
+  Standard deviation:0.013827902384445064
+  F1:  0.7144289961559886
+  precision:  0.7226666666666668
+  recall:  0.7109714484327396
+  exactitud (accuracy):  0.7143333333333333
+  elapsed time:1304.518007516861
+  #características:(3360, 166134)
+ 
+ ---------------------------
+ *** LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0)
+ ---------------------- 
+ ---------Validación RepeatedStratifiedKFold------------------
+  Scores:[0.7619047619047619, 0.7511904761904762, 0.7690476190476191, 0.7416666666666667, 0.75, 0.75, 0.7309523809523809, 0.7619047619047619, 0.7559523809523809, 0.7535714285714286, 0.7583333333333333, 0.7595238095238095, 0.7619047619047619, 0.7297619047619047, 0.7404761904761905, 0.7583333333333333, 0.7333333333333333, 0.7607142857142857, 0.7666666666666667, 0.7380952380952381, 0.7619047619047619, 0.7440476190476191, 0.7392857142857143, 0.75, 0.7714285714285715]
+  Mean:0.752
+  Standard deviation:0.011769324823570855
+  F1:  0.7520816291972792
+  precision:  0.7544761904761905
+  recall:  0.7510493200271924
+  exactitud (accuracy):  0.752
+  elapsed time:1304.5183942317963
+  #características:(3360, 166134)

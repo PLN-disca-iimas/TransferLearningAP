@@ -1,0 +1,14 @@
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.0
+numpy==1.19.0
+numpydoc==0.9.2
+pandas==1.0.3
+scikit-learn==0.23.1
+scipy==1.5.1
+sentencepiece==0.1.85
+sklearn==0.0
+tensorboard==1.13.1
+tensorflow==1.13.1
+tensorflow-estimator==1.13.0
+tensorflow-hub==0.7.0
+tf-sentencepiece==0.1.85
